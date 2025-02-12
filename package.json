@@ -1,23 +1,25 @@
 {
-  "name": "abcsightreader",
+  "name": "project08-react-sightreader-stran0262",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "abcjs": "^5.1.2"
-  },
-  "devDependencies": {},
+  "main": "vite.config.js",
   "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/andrewhannum/abcsightreader.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/andrewhannum/abcsightreader/issues"
+  "description": "",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.1.0"
   },
-  "homepage": "https://github.com/andrewhannum/abcsightreader#readme"
+  "dependencies": {
+    "abcjs": "^6.4.4",
+    "pitchfinder": "^2.3.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
 }
